@@ -5,65 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Politique de confidentialité — Tatsu, arrête de fumer</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; line-height: 1.6; color: #222; }
-    h1 { font-size: 1.6em; }
-    h2 { font-size: 1.15em; margin-top: 28px; }
-    p, li { font-size: 1em; }
-    .meta { color: #666; font-size: .9em; }
-    .box { background: #f4f6f8; border-left: 4px solid #4a8c5f; padding: 12px 16px; border-radius: 4px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 32px 24px 80px; line-height: 1.65; color: #1f2933; }
+    h1 { font-size: 1.8em; color: #14532d; border-bottom: 3px solid #4a8c5f; padding-bottom: 10px; }
+    h2 { font-size: 1.25em; margin-top: 34px; color: #14532d; }
+    h3 { font-size: 1.05em; margin-top: 22px; color: #2b6e46; }
+    p, li { font-size: 1.02em; }
+    .meta { color: #667; font-size: .9em; }
+    .box { background: #eef7f0; border-left: 4px solid #4a8c5f; padding: 16px 20px; border-radius: 6px; margin: 18px 0; }
+    .box p { margin: 6px 0; }
+    .tagline { font-size: 1.15em; color: #14532d; font-weight: 500; }
+    table { border-collapse: collapse; width: 100%; margin: 14px 0; }
+    th, td { border: 1px solid #dde; padding: 8px 12px; text-align: left; font-size: .96em;}
+    th { background: #f0f6f2; }
+    code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; font-size: .92em; }
+    dt { font-weight: 600; margin-top: 10px; }
     address { font-style: normal; }
+    footer { margin-top: 40px; border-top: 1px solid #ddd; padding-top: 20px; color: #889; font-size: .88em; }
   </style>
 </head>
 <body>
-  <h1>Politique de confidentialité</h1>
-  <p class="meta">Application <strong>Tatsu — arrête de fumer</strong><br>Dernière mise à jour : ce document</p>
 
-  <div class="box">
-    <strong>En résumé :</strong> Tatsu est conçue pour respecter votre vie privée. Vos données de sevrage restent sur votre appareil. L'application ne collecte pas de compte utilisateur, n'utilise pas de publicité, et n'envoie aucune donnée vers un serveur distant.
-  </div>
+  <h1>« Tatsu — arrête de fumer » · Politique de confidentialité</h1>
+  <p class="meta">Application mobile · <strong>Tatsu — arrête de fumer</strong><br>Dernière mise à jour : ce document</p>
 
-  <p>La présente politique explique quelles données l'application <strong>Tatsu — arrête de fumer</strong> (ci-après « Tatsu » ou « l'application ») traite et de quelle manière. En utilisant l'application, vous acceptez les pratiques décrites ci-dessous.</p>
+  <!-- ================= PRÉSENTATION DE L'APPLICATION ================= -->
+  <section>
+    <h2>À propos de l'application</h2>
+    <p class="tagline">Tatsu est une application mobile d'accompagnement à l'arrêt du tabac, pensée pour votre rythme.</p>
 
-  <h2>1. Responsable</h2>
-  <p>Tatsu est éditée par l'équipe du projet de sevrage tabagique « Tatsu ». Pour toute question relative à vos données, contactez-nous via l'adresse indiquée dans l'application (section À propos).</p>
+    <p><strong>Tatsu</strong> vous aide à stopper la cigarette en transformant chaque effort en repères concrets : suivi du nombre de cigarettes évitées, calcul des économies réalisées, paliers de motivation, conseils et exercices de respiration en cas d'envie, ainsi que des rappels bienveillants au quotidien. Conçue pour être simple et discrète, elle s'adapte à votre parcours, avec ou sans rechutes.</p>
 
-  <h2>2. Données traitées</h2>
-  <p>Tatsu traite les données suivantes :</p>
-  <ul>
-    <li><strong>Données de sevrage (à caractère de santé)</strong> : historique de consommation, nombre de cigarettes évitées, statistiques, date d'arrêt. Ces données sont stockées <strong>localement sur votre appareil</strong> (base SQLite et stockage local). Elles ne sont <strong>pas</strong> transmises à nos serveurs.</li>
-    <li><strong>Achats intégrés</strong> : l'abonnement premium et l'achat unique sont traités par la boutique d'applications (Google Play). Nous ne stockons <strong>aucune</strong> donnée de paiement : celles-ci sont gérées exclusivement par Google Play.</li>
-    <li><strong>Préférences de l'application</strong> (réglages, notifications, avatars) : stockées localement sur votre appareil.</li>
-  </ul>
+    <p>Le nom <em>Tatsu</em> s'inspire du verbe japonais 断つ, qui signifie « trancher », « rompre » ou « s'abstenir » : une manière de couper le lien avec la cigarette et de rompre durablement avec l'habitude.</p>
 
-  <h2>3. Données non collectées</h2>
-  <ul>
-    <li><strong>Aucun compte utilisateur</strong> : l'application ne requiert ni connexion, ni email, ni identifiant.</li>
-    <li><strong>Aucune publicité</strong> : nous n'utilisons pas de réseau publicitaire tiers.</li>
-    <li><strong>Aucune analytics / aucun rapport d'erreur tiers</strong> : pas de Firebase, Sentry ou équivalent.</li>
-    <li><strong>Aucune donnée exfiltrée</strong> : en l'état, l'application n'envoie aucune donnée vers un serveur distant.</li>
-  </ul>
+    <div class="box">
+      <p><strong>💚 Notre engagement</strong></p>
+      <p>Vos données de sevrage restent <strong>confidentielles et sur votre appareil</strong>. Nous ne vendons rien, ne revendons aucune donnée, ne vous pistons pas. Tatsu fonctionne sans compte obligatoire et sans transfert de vos données personnelles.</p>
+    </div>
+  </section>
 
-  <h2>4. Notification</h2>
-  <p>Les rappels (notifications locales de sevrage) sont générés <strong>sur votre appareil</strong>. Nous ne collectons pas votre identifiant de notification et aucune notification n'est envoyée depuis un serveur.</p>
+  <!-- ================= POLITIQUE DE CONFIDENTIALITÉ COMPLÈTE ================= -->
+  <section>
+    <h2>Politique de confidentialité</h2>
+    <p>La présente politique décrit les données que l'application <strong>Tatsu — arrête de fumer</strong> traite, la manière dont elles sont utilisées, et les droits dont vous disposez. En utilisant l'application, vous acceptez les pratiques décrites ci-dessous.</p>
 
-  <h2>5. Partage des données</h2>
-  <p>Tatsu ne vend ni ne loue vos données personnelles. Le seul échange de données est celui des transactions d'achat intégré, traité directement entre votre appareil et Google Play, dans le cadre du service.</p>
+    <h3>1. Responsable</h3>
+    <p>Tatsu est éditée et maintenue par l'équipe du projet de sevrage tabagique « Tatsu ». Pour toute question relative à vos données, contactez-nous via l'adresse indiquée dans l'application (section <em>À propos</em>) ou à la fin de ce document.</p>
 
-  <h2>6. Conservation et suppression</h2>
-  <p>Vos données restent sur votre appareil. Vous pouvez les supprimer à tout moment via le bouton « Réinitialiser toutes les données » disponible dans les réglages de l'application.</p>
+    <h3>2. Données traitées</h3>
+    <dl>
+      <dt>2.1 Données de sevrage (à caractère de santé)</dt>
+      <dd>Historique de consommation, nombre de cigarettes évitées, statistiques, date d'arrêt, paliers d'économie. Ces données sont stockées <strong>localement sur votre appareil</strong> (base SQLite et stockage local). Elles ne sont <strong>pas</strong> transmises à nos serveurs, car nous n'en possédons aucun pour ce traitement.</dd>
 
-  <h2>7. Sécurité</h2>
-  <p>En l'absence de transmission réseau de vos données de sevrage, celles-ci ne quittent pas votre appareil. Les transactions d'achat sont sécurisées par la boutique d'applications.</p>
+      <dt>2.2 Achats intégrés</dt>
+      <dd>L'application propose une formule premium (abonnement mensuel et/ou achat unique à vie) retirant la publicité et débloquant des fonctions. Les transactions sont traitées <strong>uniquement par la boutique d'applications</strong> (Google Play Billing). Nous ne stockons <strong>aucune</strong> donnée de carte bancaire ni de paiement.</dd>
 
-  <h2>8. Vos droits</h2>
-  <p>Conformément à la réglementation applicable (ex. RGPD), vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition sur vos données. Puissiez-vous les exercer en réinitialisant vos données dans l'application ou en nous contactant.</p>
+      <dt>2.3 Préférences et réglages</dt>
+      <dd>Choix d'interface, avatars, activations de notifications, réglages divers. Stockés localement sur votre appareil.</dd>
 
-  <h2>9. Modifications</h2>
-  <p>Nous pouvons mettre à jour cette politique. La version en vigueur est toujours celle publiée sur cette page.</p>
+      <dt>2.4 Notifications locales</dt>
+      <dd>Les rappels de sevrage sont des notifications <strong>locales</strong> générées sur votre appareil. Aucun identifiant de notification n'est transmis à un serveur.</dd>
+    </dl>
 
-  <h2>10. Contact</h2>
-  <address>Équipe Tatsu<br>Application : Tatsu — arrête de fumer</address>
+    <h3>3. Données NON collectées</h3>
+    <ul>
+      <li><strong>Aucun compte utilisateur</strong> : ni connexion, ni email, ni identifiant obligatoire.</li>
+      <li><strong>Aucune publicité ciblée</strong> : l'application ne s'appuie sur aucun réseau publicitaire tiers.</li>
+      <li><strong>Aucun outil d'analytique ou de suivi tiers</strong> : pas de Firebase, Google Analytics, Sentry, Crashlytics ou équivalent.</li>
+      <li><strong>Aucune transmission réseau</strong> de vos données de santé ou d'usage vers un serveur externe.</li>
+    </ul>
 
-  <p class="meta">Document mis à disposition pour les besoins de la publication sur Google Play (exigences de politique de confidentialité et formulaire « Data safety »).</p>
+    <h3>4. Finalités des traitements</h3>
+    <p>Les seules données traitées le sont pour : assurer le fonctionnement de l'application (suivi du sevrage, statistiques et paliers), gérer les achats intégrés (via la boutique), et personnaliser localement votre expérience. Nous ne faisons aucun profilage à des fins publicitaires.</p>
+
+    <h3>5. Partage des données</h3>
+    <p>Tatsu ne vend, ne loue ni ne partage vos données personnelles avec des tiers. Le seul échange de données est celui des transactions d'achat intégré, réalisé directement entre votre appareil et la boutique d'applications (Google Play), dans l'environnement sécurisé de celle-ci.</p>
+
+    <h3>6. Conservation</h3>
+    <p>Vos données restent sur votre appareil aussi longtemps que vous utilisez l'application. Vous pouvez les supprimer à tout moment via le bouton <strong>« Réinitialiser toutes les données »</strong> disponible dans les réglages de l'application.</p>
+
+    <h3>7. Sécurité</h3>
+    <p>En l'absence de transmission réseau de vos données de sevrage, celles-ci ne quittent jamais votre appareil. Les transactions d'achat sont chiffrées et sécurisées par la boutique d'applications. L'accès à votre appareil (verrouillage, code) protège naturellement l'accès à vos données.</p>
+
+    <h3>8. Vos droits</h3>
+    <p>Conformément à la réglementation applicable, notamment le Règlement général sur la protection des données (RGPD) et la loi Informatique et Libertés, vous disposez sur vos données d'un droit d'accès, de rectification, d'effacement, de limitation, de portabilité et d'opposition. Étant donné que vos données sont stockées localement, vous pouvez les exercer directement en réinitialisant vos données dans l'application, ou en nous contactant pour toute question.</p>
+
+    <h3>9. Mineurs</h3>
+    <p>L'application est destinée aux personnes majeures souhaitant arrêter de fumer. Elle ne s'adresse pas sciemment aux enfants de moins de 13 ans, et nous ne collectons pas sciemment de données les concernant.</p>
+
+    <h3>10. Modifications de la présente politique</h3>
+    <p>Nous pouvons être amenés à faire évoluer cette politique (par exemple lors de l'ajout de nouvelles fonctions). Toute modification sera publiée sur cette page et signalée dans l'application lors d'une prochaine mise à jour. La version en vigueur est toujours celle publiée sur la présente page.</p>
+
+    <h3>11. Contact</h3>
+    <address>
+      Équipe Tatsu<br>
+      Application : Tatsu — arrête de fumer<br>
+      <small>(adresse de contact disponible dans l'application, section À propos)</small>
+    </address>
+  </section>
+
+  <footer>
+    Document établi pour les besoins de la publication sur Google Play (formulaire « Data safety » et exigence de politique de confidentialité). Dernière vérification des informations sur la base du code de l'application : ce document.
+  </footer>
+
 </body>
 </html>
