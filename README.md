@@ -1,2 +1,3 @@
-# tatsu-privacy
-Politique de confidentialité - Tatsu (arrêt de fumer)
+# Tatsu — Arrête de fumer
+
+Politique de confidentialité : [index.html](index.html)
